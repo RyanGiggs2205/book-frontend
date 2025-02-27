@@ -5,7 +5,7 @@ const App = () => {
   const [books, setBooks] = useState([]);
   const [newBook, setNewBook] = useState({ title: '', author: '', image_url: ''});
   const [editBook, setEditBook] = useState(null);
-  const uri = 'https://scaling-parakeet-5gv9p6vpv6c4977-5001.app.github.dev/'
+  const uri = 'https://super-duper-giggle-wrv54w76g4gw39w49-5001.app.github.dev/'
   useEffect(() => {
     fetchBooks();
   }, []);
